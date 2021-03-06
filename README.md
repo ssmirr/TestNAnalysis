@@ -1,23 +1,33 @@
-# TestNAnalysis
+# Test and Analysis
 
 ### Before you get started
 
-1. Import this as a notebook or clone this repo locally.  
-
-Also, ensure you [install latest version of docable](https://github.com/ottomatica/docable-notebooks/blob/master/docs/install.md)!
+1. Import this as a notebook or clone this repo locally. Also, ensure you [install latest version of docable](https://github.com/ottomatica/docable-notebooks/blob/master/docs/install.md)!
 
 ```bash
 docable-server import https://github.com/CSC-DevOps/TestNAnalysis
 ```
 
-## Testing
+2. Install the necessary packages...
+
+```bash | {type: 'command'}
+npm install
+```
+
+## Code Coverage
+
+We will run code coverage.
 
 ```bash | {type: 'command'}
 npm run coverage
 ```
 
-In a new tab, or window open the [coverage report](coverage/lcov-report/index.html).
+### Coverage report
 
-<a href="coverage/lcov-report/index.html/" onmouseover="javascript:event.target.port=80">Look at another port</a>
 
-<iframe id="serviceFrameSend" src="./coverage/lcov-report/index.html" width="800" height="600"  frameborder="0">
+
+You can also view the coverage report by clicking the <kbd>Reload</kbd> button, or in a new tab or window, open the [coverage report](coverage/lcov-report/index.html):
+
+<button onclick="window.frames['serviceFrameSend'].src+='';">Reload</button>
+<iframe id="serviceFrameSend" src="./coverage/lcov-report/index.html" width="800" height="600"  frameborder="1">
+
