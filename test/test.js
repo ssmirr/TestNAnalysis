@@ -1,9 +1,10 @@
+
 var main = require("../index.js");
 
-describe("unit tests", function() {
+describe("unit tests for index.js", function() {
 
-    it("doesn't crash", function() {
-       main.inc(undefined);
+    it("testing inputs for inc()", function() {
+       main.inc(1,1);
     });
 
 });
