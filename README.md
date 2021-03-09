@@ -77,12 +77,12 @@ npm run coverage
 You can also view the coverage report by clicking the <kbd>Reload</kbd> button, or in a new tab or window, open the [coverage report](coverage/lcov-report/index.html):
 
 <button onclick="window.frames['serviceFrameSend'].src+='';">Reload</button>
-<iframe id="serviceFrameSend" src="./coverage/lcov-report/index.html" width="800" height="600"  frameborder="1">
-
-Hmm.
+<iframe id="serviceFrameSend" src="./coverage/lcov-report/index.html" width="800" height="600"  frameborder="1"></iframe>
 
 ## Advanced Code Coverage
 
+What about other forms of test coverage? Just how far does this rabbit hole go?
+
 ``` | {type:'slides'}
-https://docs.google.com/presentation/d/e/2PACX-1vRKjbwjlpceTDajOsA7Wey1EUBLu6RK2vQMv4T9lc9PFnEwqGkOdfyeA_bcV0Qtz_NmVOg_vBF__tSr/embed?start=false&loop=false&delayms=3000
+https://docs.google.com/presentation/d/e/2PACX-1vQMoeBFeBRhhOP_LT8mT-kmf4HUFO4pSFIp2B2pnIb1c_16f23TdFB_2eIVuroroCQ5AhWD4AWEoNo3/embed?start=false&loop=false&delayms=3000
 ```
