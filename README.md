@@ -20,6 +20,17 @@ npm install
 https://docs.google.com/presentation/d/e/2PACX-1vRKjbwjlpceTDajOsA7Wey1EUBLu6RK2vQMv4T9lc9PFnEwqGkOdfyeA_bcV0Qtz_NmVOg_vBF__tSr/embed?start=false&loop=false&delayms=3000" 
 ```
 
+#### Quiz
+
+Does *condition coverage* imply *branch coverage*?
+
+```js|{type:'quiz', quiz_type:'singlechoice', quiz_answers:'1'}
+- [ ] YES
+- [ ] NO
+```
+
+We'll describe why (or why not) in next set of slides ⏭️. But before doing that, we're going to get hands-on practice with measuring statement and branch coverage.
+
 ### Practice: Statement and Branch Coverage
 
 Given the follow code, will we provide test inputs for achieving 100% statement and branch coverage...
@@ -68,13 +79,3 @@ You can also view the coverage report by clicking the <kbd>Reload</kbd> button, 
 
 
 
-### Coverage Concepts Review
-
-A *description* for question here.
-_select Choice B and C for correct answer below:_
-
-```js|{type:'quiz', quiz_type:'singlechoice', quiz_answers:'1'}
-- [ ] Choice D
-- [ ] Choice E
-- [ ] Choice G
-```
