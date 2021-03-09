@@ -20,16 +20,18 @@ npm install
 https://docs.google.com/presentation/d/e/2PACX-1vRKjbwjlpceTDajOsA7Wey1EUBLu6RK2vQMv4T9lc9PFnEwqGkOdfyeA_bcV0Qtz_NmVOg_vBF__tSr/embed?start=false&loop=false&delayms=3000" 
 ```
 
-#### Quiz
+### Quiz ❓
 
-Does *condition coverage* imply *branch coverage*?
+Based on the slides you just reviewed... Does *condition coverage* imply *branch coverage*?
 
 ```js|{type:'quiz', quiz_type:'singlechoice', quiz_answers:'1'}
 - [ ] YES
 - [ ] NO
 ```
 
-We'll describe why (or why not) in next set of slides ⏭️. But before doing that, we're going to get hands-on practice with measuring statement and branch coverage.
+We'll describe why (or why not) in next set of slides ⏭️.
+
+But before doing that, we're going to get hands-on practice with measuring statement and branch coverage.
 
 ### Practice: Statement and Branch Coverage
 
