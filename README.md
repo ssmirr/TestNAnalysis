@@ -17,7 +17,7 @@ npm install
 ## Code Coverage
 
 ``` | {type:'slides'}
-https://docs.google.com/presentation/d/e/2PACX-1vRKjbwjlpceTDajOsA7Wey1EUBLu6RK2vQMv4T9lc9PFnEwqGkOdfyeA_bcV0Qtz_NmVOg_vBF__tSr/embed?start=false&loop=false&delayms=3000" 
+https://docs.google.com/presentation/d/e/2PACX-1vRKjbwjlpceTDajOsA7Wey1EUBLu6RK2vQMv4T9lc9PFnEwqGkOdfyeA_bcV0Qtz_NmVOg_vBF__tSr/embed?start=false&loop=false&delayms=3000
 ```
 
 ### Quiz ❓
@@ -79,5 +79,10 @@ You can also view the coverage report by clicking the <kbd>Reload</kbd> button, 
 <button onclick="window.frames['serviceFrameSend'].src+='';">Reload</button>
 <iframe id="serviceFrameSend" src="./coverage/lcov-report/index.html" width="800" height="600"  frameborder="1">
 
+Hmm.
 
+## Advanced Code Coverage
 
+``` | {type:'slides'}
+https://docs.google.com/presentation/d/e/2PACX-1vRKjbwjlpceTDajOsA7Wey1EUBLu6RK2vQMv4T9lc9PFnEwqGkOdfyeA_bcV0Qtz_NmVOg_vBF__tSr/embed?start=false&loop=false&delayms=3000
+```
