@@ -14,6 +14,12 @@ docable-server import https://github.com/CSC-DevOps/TestNAnalysis
 npm install
 ```
 
+📹 Watch the video recording of the slides and workshop as you work/follow along.
+
+``` | {type:'youtube'}
+https://www.youtube.com/embed/n313mojz9hI
+```
+
 ## Code Coverage
 
 ``` | {type:'slides'}
@@ -85,4 +91,28 @@ What about other forms of test coverage? Just how far does this rabbit hole go?
 
 ``` | {type:'slides'}
 https://docs.google.com/presentation/d/e/2PACX-1vQMoeBFeBRhhOP_LT8mT-kmf4HUFO4pSFIp2B2pnIb1c_16f23TdFB_2eIVuroroCQ5AhWD4AWEoNo3/embed?start=false&loop=false&delayms=3000
+```
+
+### Quiz ❓
+
+1. Does achieve 100% path coverage mean you also have achieved 100% branch coverage?
+
+```js|{type:'quiz', quiz_type:'singlechoice', quiz_answers:'0'}
+- [ ] YES
+- [ ] NO
+```
+
+2. Does achieve 100% path coverage mean you also have achieved 100% condition coverage?
+
+```js|{type:'quiz', quiz_type:'singlechoice', quiz_answers:'1'}
+- [ ] YES
+- [ ] NO
+```
+
+3. Why might be data-flow coverage be effective for testing?
+
+```js|{type:'quiz', quiz_type:'singlechoice', quiz_answers:'2'}
+- [ ] Provides a rationale for how robust a test suite might be to mistaken changes to the code.
+- [ ] Describes all the conditions that a predicate in a if statement can contain.
+- [ ] Allows testing the same line of code, with variables changed by uniquely different subpaths above.
 ```
